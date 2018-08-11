@@ -14,9 +14,9 @@
 
             <li v-for="item in items">{{item}}</li>
 
-            <input type="text" v-model="newthing" v-on:keyup.enter="items.push(newthing), submitter()">
+            <input type="text" v-model="newthing" @keyup.enter="items.push(newthing), submitter()">
 
-            <button v-on:click="remover">POP IT</button>
+            <button @click="remover">POP IT</button>
 
             
         </div>
