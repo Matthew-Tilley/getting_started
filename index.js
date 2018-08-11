@@ -19,8 +19,9 @@ var shoppingList = new Vue({
 
    
         submitter: function() {
-            this.items.push(this.newthing);
+            
             this.newthing = "";
+            console.log(this.items);
         },
 
         remover: function() {
