@@ -4,7 +4,7 @@ var shoppingList = new Vue({
 
     data: {
         
-        header: "THIS IS CHANGED"
+        header: "vue is ready to party"
 
     },
 
