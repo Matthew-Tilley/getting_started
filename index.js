@@ -1,4 +1,4 @@
-new Vue({
+var shoppingList = new Vue({
 
     el: "#shopping-list",
 
