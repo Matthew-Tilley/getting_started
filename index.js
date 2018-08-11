@@ -4,7 +4,7 @@ new Vue({
 
     data: {
         
-        header: "Vue is ready to party!"
+        header: "THIS IS CHANGED"
 
     },
 
