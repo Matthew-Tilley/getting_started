@@ -4,7 +4,11 @@ var shoppingList = new Vue({
 
     data: {
         
-        header: "shopping list app"
+        header: "shopping list app",
+
+        items: [
+            "10 party hats", "2 board games", "20 cups"
+        ]
 
     },
 
