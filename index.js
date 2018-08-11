@@ -24,6 +24,7 @@ var shoppingList = new Vue({
 
         remover: function() {
             this.items.pop();
+            console.log(this.items);
         }
 
     },
