@@ -15,9 +15,9 @@ var shoppingList = new Vue({
 
     methods: {
 
-        tester: function() {
+        tester: function(item) {
 
-            this.items = this.items.push(this.item);
+            this.items.push(item);
             console.log(this.items);
         }
 
