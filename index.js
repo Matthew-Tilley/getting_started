@@ -15,11 +15,7 @@ var shoppingList = new Vue({
 
     methods: {
 
-        tester: function(item) {
-
-            console.log(this.items);
-        }
-
+        
     },
 
 });
