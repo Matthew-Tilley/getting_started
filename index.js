@@ -15,7 +15,10 @@ var shoppingList = new Vue({
 
     methods: {
 
-        
+        test: function() {
+            console.log("LKAJSLKJASD");
+        }
+
     },
 
 });
