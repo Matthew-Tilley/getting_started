@@ -8,4 +8,13 @@ new Vue({
 
     },
 
+
+    methods: {
+
+        tester: function() {
+            console.log(this.header);
+        }
+
+    },
+
 });
