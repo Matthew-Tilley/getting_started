@@ -8,15 +8,19 @@ var shoppingList = new Vue({
 
         items: [
             "10 party hats", "2 board games", "20 cups", "glurp", "zurp"
-        ]
+        ],
+
+        newthing: "",
 
     },
 
 
     methods: {
 
-        test: function() {
-            console.log("LKAJSLKJASD");
+        test: function(newthing) {
+            
+            let x = newthing;
+            console.log(x);
         }
 
     },
