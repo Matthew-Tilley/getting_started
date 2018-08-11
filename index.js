@@ -17,10 +17,10 @@ var shoppingList = new Vue({
 
     methods: {
 
-        tester: function() {
-            this.items.push(this.newthing);
-            console.log(this.items);
-        },
+   
+        pusher: function() {
+            this.items.push(this.newthing)
+        }
 
         remover: function() {
             this.items.pop();
